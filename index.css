@@ -51,6 +51,197 @@ footer {
 }
 
 
-/* For testing */
+
+/* challenge 1 styles*/
+
+
+
+ 
+.container{
+    width: 732px;
+    height: 197px;
+    margin: auto;
+    margin-top: 5%;
+    background: #ffffff;
+}
+ 
+
+
+
+ 
+.mountain{
+    height:197px;
+    width: 290px;
+   /* background: url("../src/img/icons/mountain_background.jpg"); */
+    background-repeat: no-repeat; 
+    background-position: center center;
+  /* background: linear-gradient("",black);*/
+}
+ 
+.left-side{
+    position: absolute;
+    width: 290px;
+    height: 197px;
+
+}
+ 
+.aircraft{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+ 
+}
+ 
+ 
+ 
+.right-side{
+    position: absolute;
+    width: 442px;
+    height: 197px;
+}
+ 
+ 
+ 
+.top-div{
+    background:#E6E7E8;
+    position: absolute;
+    width: 442px;
+    height: 50px;
+    left: 65.7%;
+    top: 0%;
+    
+}
+ 
+ 
+ 
+p, .colorAndFont {
+    color: rgb(132, 132, 132);
+}
+ 
+ 
+.middle {
+    position: absolute;
+    width: 442px;
+    height: 147px;
+    left: 65.5%;
+}
+ 
+ 
+ 
+.flag {
+    width: 45px;
+    height: 30px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: grey;
+}
+ 
+ 
+.same-line{
+ float: left;
+ 
+}
+
+
+.display-inline{
+    display: inline;
+}
+
+
+
+hr{
+    border-color:#aaa;
+    margin-top: 20px;
+    margin-bottom: 10px ;  
+    width:90%;  
+    
+  }
+
+
+
+
+/* Margins */
+
+  .margin-30px {
+    margin-left: 30px;
+}
+ 
+.margin-left250px{
+    margin-left: 250px
+}
+
+.margin-top100px{
+    margin-top: 130px
+}
+
+.margin-left350px{
+    margin-left: 350px
+}
+
+.margin-right10px{
+    margin-right: 10px
+}
+ 
+.margin-down5px{
+    margin-top: -5px;
+}
+ 
+ 
+.margin-top80px{
+    margin-top:80px;
+}
+ 
+.margin-left20px{
+    margin-left:20px
+}
+ 
+.margin-left30px {
+    margin-left: 30px;
+}
+ 
+.margin-top{
+    margin-top:-18px;
+}
+ 
+.margin-left280{
+    margin-left:280px
+}
+ 
+ 
+ 
+.margin-right20px{
+    margin-right: 20px
+}
+ 
+ 
+.margin-left80px{
+    margin-left: 80px
+}
+
+
+.margin-left120px{
+    margin-left: 200px
+}
+.margin-left10{
+    margin-left:10px
+}
+ 
+ 
+ 
+/* fonts size */
+ 
+.size-15{
+    font-size: 15px;
+}
+ 
+ 
+ 
+.size-35{
+    font-size: 35px;
+}
+
+
 
 
