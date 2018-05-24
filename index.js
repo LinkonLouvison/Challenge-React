@@ -77,6 +77,9 @@ class Body extends React.Component {
             <div>
                 <h1>My Quotes</h1>
                 <Container />
+                <Container />
+                <Container />
+
             </div>
         );
     }
@@ -98,7 +101,23 @@ class Container extends React.Component {
     render() {
         return (
             <div>
+                <div className="container">
+                    <div className="mountain left-side">
+                        <div>
+                            <img src={glex_cutout} className="aircraft" alt="cl605_aircraft" />
+                        </div>
+                    </div>
+                    <div className="right-side">
+                        <div className="top-div">
+                            <div className="colorAndFont">
+                            <img className="margin-30px"src={data_range_black}/> 
+                            <p>Aug 6, 2016</p>
 
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
