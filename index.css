@@ -1,0 +1,56 @@
+
+
+
+h1{
+    text-align: center;
+    color: #696969;
+}
+
+
+.background{
+    background-color: #F7F7F7;
+}
+
+
+.header-white{
+        padding: 0.5em;
+        padding-top: 2em;
+        color: white;
+        background-color:white;
+        clear: left;
+    }
+
+
+
+
+.header-grey{
+        padding: 0.5em;
+        color: white;
+        background-color:#808080;
+        clear: left;
+    }
+
+
+.vistajet-logo{
+    height: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-quotes{
+    padding:1em;  
+}
+
+
+footer {
+    padding: 0.75em;
+    color: white;
+    background-color:#808080;
+    clear: left;
+}
+
+
+/* For testing */
+
+
