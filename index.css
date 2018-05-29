@@ -44,6 +44,7 @@ h1{
 
 
 footer {
+    margin-top: 5%;
     padding: 0.75em;
     color: white;
     background-color:#808080;
@@ -56,54 +57,55 @@ footer {
 
 
 
- 
 .container{
     width: 732px;
     height: 197px;
     margin: auto;
     margin-top: 5%;
+    border-style: groove;
+    border-width: 1px;
     background: #ffffff;
 }
+  
  
-
-
-
  
+ 
+  
 .mountain{
     height:197px;
     width: 290px;
-   /* background: url("../src/img/icons/mountain_background.jpg"); */
+   /* background: url("img/icons/mountain-background.jpg");*/
     background-repeat: no-repeat; 
     background-position: center center;
   /* background: linear-gradient("",black);*/
 }
- 
+  
 .left-side{
     position: absolute;
     width: 290px;
     height: 197px;
-
-}
  
+}
+  
 .aircraft{
     position: absolute;
     bottom: 20px;
     left: 0px;
     width: 100%;
     height: 80%;
- 
+  
 }
- 
- 
- 
+  
+  
+  
 .right-side{
     position: absolute;
     width: 442px;
     height: 197px;
 }
- 
- 
- 
+  
+  
+  
 .top-div{
     background:#E6E7E8;
     position: absolute;
@@ -111,137 +113,180 @@ footer {
     height: 50px;
     left: 65.7%;
     top: 0%;
-    
+     
 }
- 
- 
- 
+  
+  
+  
 p, .colorAndFont {
     color: rgb(132, 132, 132);
+    font-size: 15px;
 }
- 
- 
+  
+  
 .middle {
     position: absolute;
     width: 442px;
     height: 147px;
     left: 65.5%;
 }
+  
  
+.middle-image{
+     -webkit-transform: rotate(90deg);
+     -ms-transform: rotate(90deg);
+     transform: rotate(90deg);
+     width: 25%;
+     height: 25%;
+ 
+}
+ 
+ 
+ 
+.climate{
+    position:relative;
+    float: left;
+    top: -25px;
+}
  
  
 .flag {
-    width: 45px;
-    height: 30px;
-    border: 0.5px;
-    border-style: solid;
-    border-color: grey;
+    width: 35px;
+    height: 25px;
 }
- 
- 
+  
+  
 .same-line{
  float: left;
- 
+  
 }
-
-
+ 
+ 
 .display-inline{
     display: inline;
 }
-
-
-
+ 
+ 
+ 
 hr{
     border-color:#aaa;
-    margin-top: 20px;
-    margin-bottom: 10px ;  
-    width:90%;  
+    width:90%; 
     
-  }
-
-
-
-
+}
+ 
+ 
+ 
+ 
 /* Margins */
-
+ 
   .margin-30px {
     margin-left: 30px;
 }
- 
+  
 .margin-left250px{
     margin-left: 250px
 }
-
+ 
 .margin-top100px{
     margin-top: 130px
 }
-
+ 
 .margin-left350px{
     margin-left: 350px
 }
-
+ 
 .margin-right10px{
     margin-right: 10px
 }
- 
+  
 .margin-down5px{
     margin-top: -5px;
 }
- 
- 
+   
+.margin-top60px{
+    margin-top:60px;
+}
+  
 .margin-top80px{
     margin-top:80px;
 }
- 
+  
 .margin-left20px{
     margin-left:20px
 }
- 
+  
 .margin-left30px {
     margin-left: 30px;
 }
- 
+  
 .margin-top{
     margin-top:-18px;
 }
- 
+  
 .margin-left280{
     margin-left:280px
 }
- 
- 
- 
+  
+  
+.margin-left310{
+    margin-left:310px
+}
+  
 .margin-right20px{
     margin-right: 20px
 }
- 
- 
+  
+  
 .margin-left80px{
     margin-left: 80px
 }
-
-
+ 
+ 
 .margin-left120px{
     margin-left: 200px
 }
-.margin-left10{
-    margin-left:10px
+ 
+.margin-left200px{
+    margin-left: 200px
 }
  
  
- 
+.margin-left10{
+    margin-left:10px
+}
+  
+.margin-left{
+    margin-left:10px
+}
+  
+  
 /* fonts size */
+.size-10{
+    font-size: 10px;
+}
+   
+ 
  
 .size-15{
     font-size: 15px;
 }
- 
- 
- 
-.size-35{
-    font-size: 35px;
+  
+  
+  
+.size-25{
+    font-size: 25px;
 }
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+.below {
+    position: absolute;
+    width: 442px;
+    height: 50px;
+    left: 65.5%;
+    top:  70%;
+}
 
