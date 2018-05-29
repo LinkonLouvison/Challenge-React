@@ -16,7 +16,7 @@ const people_black = require('../src/img/icons/ic_people_black_24px.svg');
 const query_builder_black = require('../src/img/icons/ic_query_builder_black_24px.svg');
 const sunny_black = require('../src/img/icons/ic_wb_sunny_black_24px.svg');
 const moon = require('../src/img/icons/moon.png');
-const mountain_background = require('../src/img/icons/mountain-background.jpg');
+const mountain_background = require('../src/img/icons/mountainBackground.jpg');
 const rain = require('../src/img/icons/rain.png');
 const sun = require('../src/img/icons/sun.png');
 const vistajetLogo = require('../src/img/icons/vistajet-logo.svg');
@@ -68,7 +68,6 @@ class Header2 extends React.Component {
 }
 
 
-
 /* BODY WITH CONTAINERS */
 class Body extends React.Component {
     render() {
@@ -76,9 +75,9 @@ class Body extends React.Component {
 
             <div>
                 <h1>My Quotes</h1>
-                <Container />
-                <Container />
-                <Container />
+                <Container1 />
+                <Container2 />
+                <Container3 />
 
             </div>
         );
@@ -96,27 +95,128 @@ class Footer extends React.Component {
 }
 
 
+
+
+class Left_side extends React.Component {
+    render() {
+        return (
+            <div className=" left-side">
+                <div>
+                    <img className="mountain" src={mountain_background} alt="mountain" />
+                    <img src={glex_cutout} className="aircraft" alt="cl605_aircraft" />
+                </div>
+            </div>
+        );
+    }
+}
+
+
+
+
+class Right_side extends React.Component {
+    render() {
+        return (
+            <div className="right-side">
+
+                <div className="top-div">
+                    <div>
+                        <p>
+                            <img src={data_range_black} className="margin-30px" alt="calendar" /> {this.props.calendar}
+                            <img src={query_builder_black} className="margin-30px" alt="time" /> {this.props.time}
+                            <img src={people_black} className="margin-30px" alt="group" /> Passengers:
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="middle">
+                    <div class="size-15 margin-top60px margin-left20px colorAndFont same-line">
+                        <b>{this.props.city1}</b>
+                    </div>
+                    <div class="size-15 margin-top margin-left310  colorAndFont same-line">
+                        <b>{this.props.city2}</b>
+                    </div>
+                    <img class="flag margin-left20px  same-line " src={this.props.flag1} />
+                    <div class="colorAndFont margin-left20px size-25 same-line ">{this.props.contry1}</div>
+                    <img class="middle-image same-line margin-left20px margin-right20px " src={airplanemode_active_black} />
+                    <div class="colorAndFont same-line size-25">{this.props.contry2}</div>
+                    <img class="flag margin-left-20px  same-line" src={this.props.flag2} />
+                    <div class="climate">
+                        <p>
+                            <img src={this.props.climate1} class="margin-left20px" alt="climate1" /><span>{this.props.climateText1}</span> <span class="margin-left200px">{this.props.climateText2}</span>
+                            <img src={this.props.climate2} alt="climate2" />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="below">
+                    <hr></hr>
+                    <div>
+                        <div class=" colorAndFont same-line margin-left30px  size-20">
+                            <b>ETD: {this.props.etd} loc </b>
+                        </div>
+                        <div class=" colorAndFont size-20  margin-left280">
+                            <b>ETA: {this.props.eta} loc </b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+
+
+
+
 /*CONTAINER  */
-class Container extends React.Component {
+
+
+
+class Container1 extends React.Component {
     render() {
         return (
             <div>
                 <div className="container">
-                    <div className="mountain left-side">
-                        <div>
-                            <img src={glex_cutout} className="aircraft" alt="cl605_aircraft" />
-                        </div>
-                    </div>
-                    <div className="right-side">
-                        <div className="top-div">
-                            <div className="colorAndFont">
-                            <img className="margin-30px"src={data_range_black}/> 
-                            <p>Aug 6, 2016</p>
+                    <Left_side />
+                    <Right_side time={"10:50"} calendar={"Sep 15, 2016"} flag1={brasil} flag2={paquistao}
+                        city1={"S PAULO"} city2={"ISLEMAD"} contry1={" BRA "} contry2={" PAK "} climate1={sun}
+                        climate2={moon} climateText1={"28.5C"} climateText2={"17.8C"} etd={"15:05"} eta={"17:30"}
+                    />
+                </div>
+            </div>
+        );
+    }
+}
 
-                        
-                            </div>
-                        </div>
-                    </div>
+class Container2 extends React.Component {
+    render() {
+        return (
+            <div>
+                <div className="container">
+                    <Left_side />
+                    <Right_side time={"10:50"} calendar={"Sep 28, 2016"} flag1={eua} flag2={uk}
+                        city1={"CALIFRNA"} city2={" LNDN "} contry1={" EUA "} contry2={" UK "} climate1={rain}
+                        climate2={sun} climateText1={"28.8C"} climateText2={"17.8C"} etd={"22:40"} eta={"16:10"}
+                    />
+                </div>
+            </div>
+        );
+    }
+}
+
+
+
+
+class Container3 extends React.Component {
+    render() {
+        return (
+            <div>
+                <div className="container">
+                    <Left_side />
+                    <Right_side time={"05:50"} calendar={"may 01, 2017"} flag1={french} flag2={germany}
+                        city1={"MARSELHA"} city2={"BAMBERG"} contry1={" FRE "} contry2={" GER "} climate1={sun}
+                        climate2={moon} climateText1={"8.5C"} climateText2={"1.8C"} etd={"2:05"} eta={"3:30"}
+                    />
                 </div>
             </div>
         );
