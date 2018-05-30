@@ -102,7 +102,7 @@ class Left_side extends React.Component {
         return (
             <div className=" left-side">
                 <div>
-                    <img className="mountain" src={mountain_background} alt="mountain" />
+                    <div className="mountain" />
                     <img src={glex_cutout} className="aircraft" alt="cl605_aircraft" />
                 </div>
             </div>
@@ -179,7 +179,7 @@ class Container1 extends React.Component {
                 <div className="container">
                     <Left_side />
                     <Right_side time={"10:50"} calendar={"Sep 15, 2016"} flag1={brasil} flag2={paquistao}
-                        city1={"S PAULO"} city2={"ISLEMAD"} contry1={" BRA "} contry2={" PAK "} climate1={sun}
+                        city1={"S PAULO"} city2={"ISLEMAD"} contry1={"BRA "} contry2={" PAK "} climate1={sun}
                         climate2={moon} climateText1={"28.5C"} climateText2={"17.8C"} etd={"15:05"} eta={"17:30"}
                     />
                 </div>
@@ -195,7 +195,7 @@ class Container2 extends React.Component {
                 <div className="container">
                     <Left_side />
                     <Right_side time={"10:50"} calendar={"Sep 28, 2016"} flag1={eua} flag2={uk}
-                        city1={"CALIFRNA"} city2={" LNDN "} contry1={" EUA "} contry2={" UK "} climate1={rain}
+                        city1={"CALIFRNA"} city2={" LNDN "} contry1={" EUA "} contry2={" UK  "} climate1={rain}
                         climate2={sun} climateText1={"28.8C"} climateText2={"17.8C"} etd={"22:40"} eta={"16:10"}
                     />
                 </div>
