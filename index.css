@@ -74,10 +74,9 @@ footer {
 .mountain{
     height:197px;
     width: 290px;
-   /* background: url("img/icons/mountain-background.jpg");*/
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, black 3%, transparent ), url('../src/img/icons/mountainBackground.jpg');
     background-position: center center;
-  /* background: linear-gradient("",black);*/
 }
   
 .left-side{
